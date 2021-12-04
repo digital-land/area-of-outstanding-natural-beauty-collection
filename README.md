@@ -1,10 +1,9 @@
-# Area of Outstanding Natural Beauty collection
+# area-of-outstanding-natural-beauty collection
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/area-of-outstanding-natural-beauty-collection/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/area-of-outstanding-natural-beauty/blob/main/LICENSE)
+[![Run pipeline](https://github.com/digital-land/area-of-outstanding-natural-beauty-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/area-of-outstanding-natural-beauty-collection/actions/workflows/run.yml)
 
-A collection of areas of outstanding natural beauty.
-
-The national dataset is in a format consistent with other Digital Land datasets as defined by the [geography schema](https://digital-land.github.io/specification/schema/geography/).
+The data and pipeline to build the [area-of-outstanding-natural-beauty dataset](https://www.digital-land.info/dataset/area-of-outstanding-natural-beauty).
 
 # Collection
 
@@ -23,11 +22,7 @@ We recommend working in [virtual environment](http://docs.python-guide.org/en/la
     $ make init
     $ make collect
 
-# Nightly collection
-
-The collection is [updated nightly](https://github.com/digital-land/area-of-outstanding-natural-beauty-collection/actions) by the [GitHub Action](.github/workflows/run.yml).
-
-# Building the national dataset
+# Building the datasets
 
 The collected files can then be converted into a national dataset:
 
