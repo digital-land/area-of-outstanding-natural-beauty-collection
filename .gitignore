@@ -22,6 +22,7 @@ specification/
 # stored in S3
 collection/resource/
 dataset/
+flattened/
 transformed/
 issue/
 # files built from the collection
